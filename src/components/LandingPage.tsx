@@ -41,7 +41,7 @@ export default function LandingPage() {
 
 				<div className="relative z-10 flex flex-col items-center justify-center h-[calc(100%-80px)] px-4">
 					<h1 className="text-white text-4xl md:text-5xl lg:text-[65px] font-normal text-center max-w-4xl leading-tight mb-16">
-						Take the next step together, or explore how we can guide you...
+						Take the next step together, or explore how we can guide you.
 					</h1>
 
 					<div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 w-full max-w-6xl px-4">
