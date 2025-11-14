@@ -1,7 +1,7 @@
 export default function LandingPage() {
   return (
     <div className="relative min-h-screen bg-[#f9eddc] overflow-hidden">
-      <section className="relative h-screen rounded-bl-[50px] rounded-br-[50px] ">
+      <section className="relative h-screen rounded-bl-[50px] rounded-br-[50px] overflow-hidden">
         <div className="absolute inset-0 w-full h-full">
           <video
             autoPlay
@@ -26,16 +26,28 @@ export default function LandingPage() {
           </div>
 
           <div className="hidden lg:block absolute left-8 top-120">
-            <div className="rotate-270 origin-top-left">
+            <div className="rotate-[270deg] origin-top-left">
               <img src="/asset-2-1.svg" alt="Neptune" className="h-10 w-auto" />
             </div>
           </div>
 
           <button
             type="button"
-            className="bg-[#f9a058]/50 hover:bg-[#f9a058]/60 transition-all duration-300 md:px-7 px-2 py-4 rounded-full shadow-lg text-white font-semibold text-base tracking-tight"
+            className="
+    bg-[#f9a058]/40 
+    hover:bg-[#f9a058]/50  
+    border border-[#f9a058]/40 
+    transition-all duration-300 
+    px-7 py-4 
+    rounded-full 
+    text-white 
+    font-semibold 
+    text-base 
+    tracking-tight
+    shadow-[0_8px_24px_rgba(249,160,88,0.25),inset_0_1px_0_rgba(249,160,88,0.6),inset_0_-1px_0_rgba(249,160,88,0.25)]
+  "
           >
-            Get Started
+            <span className="relative z-10">Get Started</span>
           </button>
         </header>
 
